@@ -1,3 +1,7 @@
+Here's a cleaned-up and professional version of your README file (without emojis), written clearly and structured properly:
+
+---
+
 # Pizza Restaurant API
 
 A simple RESTful API built with Flask for managing restaurants, pizzas, and their menus.
@@ -122,13 +126,11 @@ curl http://127.0.0.1:5555/restaurants/1
 
 ### Add a Pizza to a Restaurant
 
-
 ```bash
 curl -X POST -H "Content-Type: application/json" \
 -d '{"price": 14, "pizza_id": 2, "restaurant_id": 2}' \
 http://127.0.0.1:5555/restaurant_pizzas
 ```
-
 
 ### Delete a Restaurant
 
@@ -137,7 +139,6 @@ curl -X DELETE http://127.0.0.1:5555/restaurants/3
 ```
 
 ---
-
 
 ## Folder Structure
 
@@ -171,5 +172,6 @@ flask run --port 5556
 ```bash
 flask db migrate
 flask db upgrade
+```
 
 
